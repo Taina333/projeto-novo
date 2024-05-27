@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    flex-wrap: wrap;
+}
+
+#item1{
+    border: solid 1px blue;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+#elemento1{
+    border: solid 1px greenyellow;
+    height: 100%;
+    width: 70px;
+}
+
+#elemento2{
+    border: solid 1px greenyellow;
+    height: 100%;
+    width: 70px;
+}
+
+#elemento3{
+    border: solid 1px greenyellow;
+    height: 100%;
+    width: 70px;
+}
+
+#elemento4{
+    border: solid 1px greenyellow;
+    height: 100%;
+    width: 70px;
+}
+
+
+#item2{
+    border: solid 1px blue;
+    height: 20%;
+    width: 100%;
+}
+
+#item3{
+    border: solid 1px blue;
+    height: 20%;
+    width: 100%;
+}
+
+#item4{
+    border: solid 1px blue;
+    height: 20%;
+    width: 100%;
+}
+
+#item5{
+    border: solid 1px blue;
+    height: 20%;
+    width: 100%;
+}
