@@ -61,3 +61,22 @@
     height: 20%;
     width: 100%;
 }
+#resultadoSoma{
+    background-color: brown;
+    color: yellow;
+}
+
+#resultadoMenos{
+    background-color: brown;
+    color: yellow;
+}
+
+#resultadoDividir{
+    background-color: brown;
+    color: yellow;
+}
+
+#resultadoMultiplica{
+    background-color: brown;
+    color: yellow;
+}
