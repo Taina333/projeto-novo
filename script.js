@@ -33,3 +33,40 @@ function multiplicaNumeros(){
     var teste = document.getElementById("resultadoMultiplica")
     teste.innerHTML = resultado
 }
+
+function convertergraus(){
+    
+    var numero9 = parseInt(document.getElementById("num9").value);
+    var resultado = (numero9 - 32 ) * (5/9)
+    //alert(resultado)
+    var teste = document.getElementById("resultadoConversao")
+    teste.innerHTML=resultado
+}
+
+function convertergraus2(){
+    
+    var numero10 = parseInt(document.getElementById("num10").value);
+    var resultado = numero10 * 1.8 + 32
+    //alert(resultado)
+    var teste = document.getElementById("resultadoConversao1")
+    teste.innerHTML=resultado
+}
+
+function area(){
+    
+    var numero11 = parseInt(document.getElementById("num11").value);
+    var numero12 = parseInt(document.getElementById("num12").value);
+    var resultado = numero11 / numero12
+    //alert(resultado)
+    var teste = document.getElementById("areaRe")
+    teste.innerHTML=resultado
+}
+
+function areacir(){
+    
+    var numero13 = parseInt(document.getElementById("num13").value);
+    var resultado = Math.pow(numero13,2) * 3.14
+    //alert(resultado)
+    var teste = document.getElementById("areaCircu")
+    teste.innerHTML=resultado
+}
